@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Send feedback without a GitHub account
+    url: https://koowee.org/duckeye/feedback/#form
+    about: A form on koowee.org. Your message goes only to the duckeye team.

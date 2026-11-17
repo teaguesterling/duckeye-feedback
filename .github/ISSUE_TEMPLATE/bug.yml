@@ -1,0 +1,36 @@
+name: Bug report
+description: Something in duckeye does not work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Issues here are public. Do not paste private content, such as a private document or a signed-in page.
+  - type: input
+    id: version
+    attributes:
+      label: duckeye version
+      description: In the app, Help shows it, for example 0.2.0 (75cbfec). For the command line, `duckeye --version`.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone and Android version
+      description: For example Pixel 8, Android 16. Leave empty for the command line.
+  - type: textarea
+    id: what
+    attributes:
+      label: What you shared or opened
+      description: A public link, or the type of file (for example a CSV or a Word document).
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
